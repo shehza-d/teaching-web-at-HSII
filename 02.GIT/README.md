@@ -1,32 +1,37 @@
 # Git and Github
 
 1. Install Git from the [official website](https://git-scm.com/downloads).
-1. If everything went well, it should return the Git version that is installed on your computer.
+1. `git --version` command should return the Git version that is installed on your computer.
 1. If you don't have already Sign up for an account at [github.com](https://github.com/signup).
-1. Once inside, you'll find your own Repositories.
-1. Create a new project on github.com simply by clicking the `New` button and giving it a unique name.
+1. Create a new repo on github.com simply by clicking the `New` button and giving it a unique name.
 1. Keep your repos public.
-1. Copy http link below green code button
+1. Copy http link below green `Code` button
 
-```bash
-git clone <link>
-```
+   ```bash
+   git clone <link>
+   ```
 
-1. This command will generate a hidden `.git` folder in your project, where Git stores all internal tracking data for the current repository. We don't need to look and change in .git.
+1. This command will generate a hidden `.git` folder in your project, where Git stores all internal tracking data for the current repository. We don't need to look and change in .git. **All files next to `.git` folder will be pushed!**
+1. Navigate in the Folder with
 
+   ```bash
+   cd folderName
+   ```
+
+1. Open VS Code with `code .` command and Create a files name `index.html`.
 1. and then add files in your project.
 
-```bash
-git add .
-```
+   ```bash
+   git add .
+   ```
 
-```bash
-git commit -m "my message"
-```
+   ```bash
+   git commit -m "my message"
+   ```
 
-```bash
-git push
-```
+   ```bash
+   git push
+   ```
 
 1. Add your digital creations to the repository – your code, documents, images, or anything you create!
 
