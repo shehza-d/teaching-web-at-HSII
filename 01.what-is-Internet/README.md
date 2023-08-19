@@ -9,3 +9,5 @@
 - ip address== phone number 
 - $ ping facebook.com ==> 157.240.227.35
 - 4G
+
+- cloud vs own server
