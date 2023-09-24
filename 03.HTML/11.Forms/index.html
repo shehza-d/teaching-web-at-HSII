@@ -1,21 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Forms</h1>
-    <form>
-        <!-- <input type="email" /> -->
-        <!-- <input type="file" accept=".mp4" multiple/>
+    <form action="myAction" method="dialog">
+      <!-- <input type="email" /> -->
+      <!-- <input type="file" accept=".mp4" multiple/>
         <input type="date" />
         <input type="number" min="1900" max="2099" step="1" value="2016" /> -->
 
-        <input type="range" value="15" >
-        <!-- <textarea></textarea> -->
-        <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+      <input type="text" id="name-input" required name="first-name" />
+      <!-- <input type="text" id="name-input" name="last-name"  > -->
+      <!-- <textarea></textarea> -->
+      <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
+
+      <!-- <select name="devices">
+        <option value="none">none</option>
+        <option value="ipod">iPod</option>
+        <option value="radio">anfal</option>
+        <option value="computer">Computer</option>
+      </select> -->
+
+      <select name="instruments" multiple="multiple">
+        <option value="guitar">Guitar</option>
+        <option value="drums">Drums</option>
+        <option value="keyboard">Keyboard</option>
+        <option value="bass">Bass</option>
+      </select>
+
+      <button type="submit">submit</button>
+
+      <button>
+        <img src="images/add.gif" alt="add" width="10" height="10" />
+         Add
+      </button>
+
+
+
     </form>
-</body>
+
+    <dialog>fdfdf</dialog>
+
+    <!-- <script>
+        const  name = document.querySelector("#name-input")
+
+        console.log("nameL:",name.value)
+    </script> -->
+  </body>
 </html>
