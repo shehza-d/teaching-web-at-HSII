@@ -1,3 +1,4 @@
+<!-- this indicates we will write HTML 5 code  -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -13,7 +14,13 @@
         <input type="date" />
         <input type="number" min="1900" max="2099" step="1" value="2016" /> -->
 
-      <input type="text" id="name-input" required name="first-name" />
+      <input
+        oninvalid="this.setCustomValidity('Please Enter dfdf email')"
+        type="email"
+        id="name-input"
+        required
+        name="first-name"
+      />
       <!-- <input type="text" id="name-input" name="last-name"  > -->
       <!-- <textarea></textarea> -->
       <!-- <textarea name="" id="" cols="30" rows="10"></textarea> -->
@@ -25,22 +32,54 @@
         <option value="computer">Computer</option>
       </select> -->
 
-      <select name="instruments" multiple="multiple">
+      <!-- <select name="instruments" multiple="multiple">
         <option value="guitar">Guitar</option>
         <option value="drums">Drums</option>
         <option value="keyboard">Keyboard</option>
         <option value="bass">Bass</option>
       </select>
 
-      <button type="submit">submit</button>
-
       <button>
         <img src="images/add.gif" alt="add" width="10" height="10" />
          Add
-      </button>
+      </button> 
+    -->
 
+      <!-- name shoud be same for same type of values -->
+      <input
+        id="testing1"
+        type="radio"
+        name="myRadio"
+        value="value1"
+        name="myRadio1"
+      />
 
+      <input
+        id="testing2"
+        type="radio"
+        name="myRadio"
+        value="value2"
+        name="myRadio2"
+      />
 
+      <label
+        >Age:
+        <input
+          value="25"
+          placeholder="Please enter your age"
+          type="number"
+          name="age"
+          id="user-age"
+          required
+        />
+      </label>
+      <br/ > Gender:
+      <input required id="female" type="radio" name="gender" value="f" />
+      <label for="female">Female</label>
+      <input id="male" type="radio" name="gender" value="m" />
+      <label for="male">Male</label>
+
+      <button type="submit">submit</button>
     </form>
 
     <dialog>fdfdf</dialog>
@@ -50,5 +89,7 @@
 
         console.log("nameL:",name.value)
     </script> -->
+
+    ctrl + / for comments
   </body>
 </html>
