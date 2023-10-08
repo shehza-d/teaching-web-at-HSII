@@ -1,0 +1,10 @@
+a {
+  color: rgb(76, 0, 255);
+}
+a:hover {
+  background-color: orange;
+}
+
+.special{
+    color: green;
+}

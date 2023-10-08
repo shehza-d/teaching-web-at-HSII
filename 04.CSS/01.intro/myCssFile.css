@@ -1,0 +1,13 @@
+/* Using External CSS */
+/* page 236 */
+body {
+  height: 500px;
+  border: 2px solid green;
+}
+/* this */
+h1,
+h2,
+h3 {
+  color: red;
+  background-color: chartreuse;
+}
