@@ -1,6 +1,6 @@
 /* Using External CSS */
 /* page 236 */
-/* body {
+body {
   height: 500px;
   border: 2px solid green;
 }
@@ -29,31 +29,31 @@ h2 {
 
 .orange {
   background-color: orange;
-} */
+}
 
 /* selects any p element that has example class */
-/* p.example{
+p.example {
   background-color: blue;
-} */
+}
 
-/* .example {
+.example {
   background-color: blue;
-} */
+}
 
 /* parent > child element */
-/* div > h2,
+div > h2,
 div > h3 {
   background-color: blue;
-} */
+}
 
 /* Descendant Selector (same as child selector but might have some diffrences) */
-/* div h2 {
+div h2 {
   background-color: blue;
 }
 
 #my-id {
   background-color: darkseagreen;
-} */
+}
 
 h1 + p {
   text-indent: 5%;
@@ -65,9 +65,7 @@ h1 + p:first-letter {
   display: inline;
 }
 
-
 /* applies to all siblings */
-/* h1 ~ p {
+h1 ~ p {
   background-color: blue;
-} */
-
+}
