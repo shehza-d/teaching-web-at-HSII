@@ -1,6 +1,6 @@
 # CSS
 
-<!--left How Css Rules Cascade 239-->
+<!--start chp 12 239-->
 
 ## [CSS Game](https://flukeout.github.io/)
 

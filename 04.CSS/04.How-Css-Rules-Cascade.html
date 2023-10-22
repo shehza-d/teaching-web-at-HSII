@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Courier New";
+        color: coral;
+      }
+      h1 {
+        color: blue;
+        color: red;
+      }
+      h1 {
+        color: #db6a00;
+        /* this color will apply be it has more precedence */
+      }
+      p b {
+        color: blue !important;
+        /* this important is to explain class */
+      }
+      p {
+        color: #ee3e80;
+        /* color: HSLA; */
+      }
+      p b {
+        color: violet;
+      }
+
+      div {
+        border-radius: 20px;
+        /* https://getcssscan.com/css-box-shadow-examples */
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+      }
+
+      p {
+        /* opacity 1 */
+        background-color: rgb(60, 177, 175);
+        opacity: 0.5;
+        /* opacity 1 */
+        background-color: rgba(0, 0, 0, 0.4);
+
+      }
+    </style>
+  </head>
+  <body>
+    <h1>How Css Rules Cascade</h1>
+
+    <div>
+      <p>
+        Lorem ipsum <b>potato</b> dolor sit amet consectetur adipisicing elit.
+        Quidem esse, consectetur hic aliquid cupiditate, debitis voluptatem
+        dolorum fugit at necessitatibus tenetur, maiores autem sequi recusandae!
+        Ratione quibusdam praesentium quidem cupiditate.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem esse,
+        consectetur hic aliquid cupiditate, debitis voluptatem dolorum fugit at
+        necessitatibus tenetur, maiores autem sequi recusandae! Ratione
+        quibusdam praesentium quidem cupiditate.
+      </p>
+    </div>
+  </body>
+</html>

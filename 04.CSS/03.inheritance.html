@@ -6,20 +6,16 @@
     <style>
       body {
         text-transform: uppercase;
+        color: red;
         border: 2px solid green; /* short hand */
-
-        border-width: 5px;
-        border-style: double;
-        border-color: blueviolet;
-
-        border-left: 4mm ridge rgba(211, 220, 50, 0.6);
-
-        /* border-bottom: 2px solid; */
       }
 
       h1 {
-        text-transform: lowercase;
-        border: 2px solid green;
+        /* text-transform: lowercase; */
+        border: inherit;
+      }
+      h2 {
+        border: inherit;
       }
 
       /* fonts are in inherit and borders are not*/
@@ -28,7 +24,7 @@
   </head>
   <body>
     <h1>Inheritance</h1>
-    <!-- left -->
+
     <div class="page">
       <h2>PoTaToes</h2>
       <p>There are dozens of different potato varieties.</p>
