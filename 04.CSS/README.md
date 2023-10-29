@@ -1,6 +1,6 @@
 # CSS
 
-<!--start chp 12 239-->
+<!--start from chp 12 275 TEXT-->
 
 ## [CSS Game](https://flukeout.github.io/)
 
