@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img {
+  background-image: url(./road.jpg);
+  /* background-image: url(https://i.ytimg.com/vi/L2jkhn-mI-U/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_giAAtAFigIMCAAQARhlIGUoZTAP&rs=AOn4CLB7-nzjouVzr3iyrgqnEOBcML5LyA); */
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  background-position: center;
+  /* width: 1000px; */
+  /* height: 50vh;  view height is visible area of screen */
+  width: 98vw;
+  font-size: 1.5rem;
+  /* color: wheat; */
+  box-shadow: 10px 10px 5px red;
+  /* background-color: rgba(0, 0, 0, 0.447); */
+}
+
+.para1 {
+  line-height: 25px;
+  /* letter-spacing: 0.2em; */
+  /* word-spacing: 1em; */
+  text-align: justify;
+  text-indent: 40px;
+}
+
+/* dynamic */
+.para1:first-letter {
+  font-size: 45px;
+  text-transform: uppercase;
+}
+
+.shadow {
+  font-size: 40px;
+  box-shadow: 10px 10px 5px red;
+  text-shadow: 2px 2px 0px red;
+}
+
+ul > li > a:visited {
+  color: green;
+}
+
+ul > li > a:link {
+  font-size: 36px;
+  color: red;
+  background-color: blue;
+  border-radius: 0 20px 20px 0px;
+  border-radius: 40px 0 20px 5px;
+  /* this works clockwise */
+}
+
+.my-good-btn {
+  padding: 15px;
+  background-color: aqua;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: auto;
+  border: none;
+
+  transition: transform 300ms; /* Animation */
+}
+
+.my-good-btn:hover {
+  transform: scale(1.1);
+  background-color: rgb(27, 211, 211);
+}
+.my-good-btn:active {
+  background-color: red;
+  /* transform: scale(1.2); */
+}
