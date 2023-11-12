@@ -17,13 +17,12 @@
   box-shadow: 10px 10px 5px red;
   /* background-color: rgba(0, 0, 0, 0.447); */
 }
-
 .para1 {
   line-height: 25px;
   /* letter-spacing: 0.2em; */
   /* word-spacing: 1em; */
   text-align: justify;
-  text-indent: 40px;
+  text-indent: -80px;
 }
 
 /* dynamic */
@@ -34,8 +33,9 @@
 
 .shadow {
   font-size: 40px;
-  box-shadow: 10px 10px 5px red;
+  box-shadow: 10px 10px 5px green;
   text-shadow: 2px 2px 0px red;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 ul > li > a:visited {
@@ -69,4 +69,8 @@ ul > li > a:link {
 .my-good-btn:active {
   background-color: red;
   /* transform: scale(1.2); */
+}
+
+p[testing]{
+  color: blueviolet;
 }
