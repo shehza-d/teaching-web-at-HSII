@@ -1,6 +1,6 @@
 # CSS
 
-<!--start from chp 12 309 Attribute Selectors -->
+<!--start from chp 15 362 layout -->
 
 ## [CSS Game](https://flukeout.github.io/)
 
