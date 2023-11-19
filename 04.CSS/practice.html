@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        background-color: rgb(224, 111, 194);
+        font-family: sans-serif;
+      }
+      h1 {
+        text-align: right;
+        color: white;
+      }
+      h1:hover{
+        cursor: wait;
+      }
+
+      ul {
+        text-align: justify;
+        list-style-type: disclosure-closed;
+      }
+
+      ul > li {
+        padding: 20px;
+        font-size: 35px;
+      }
+
+      li::marker {
+        /* marker is a pseudo elements */
+        color: white;
+      }
+
+      .myInput {
+        border-radius: 20px;
+        height: 40px;
+        width: 350px;
+        padding: 10px;
+        margin-left: auto;
+        display: block;
+        border: 3px solid gray;
+        font-size: 20px;
+      }
+      .myInput:focus{
+        outline: none;
+        border: 3px solid rgb(164, 5, 164);
+      }
+    </style>
+
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>
+      Summary <br />
+      BOXES
+    </h1>
+
+    <input class="myInput" placeholder="Search..." type="search" />
+
+    <!-- ul is a container or parent element -->
+    <ul>
+      <li>CSS treats each HTML element as if it has its own box.</li>
+      <li>You can use CSS to control the dimensions of a box.</li>
+      <li>
+        You can also control the borders, margin and padding for each box with
+        CSS.
+      </li>
+      <li>
+        It is possible to hide elements using the display and visibility
+        properties.
+      </li>
+      <li>
+        Block-level boxes can be made into inline boxes, and inline boxes made
+        into block-level boxes.
+      </li>
+      <li>
+        Legibility can be improved by controlling the width of boxes containing
+        text and the leading.
+      </li>
+      <li>
+        CSS3 has introduced the ability to create image borders and rounded
+        borders.
+      </li>
+    </ul>
+  </body>
+</html>
