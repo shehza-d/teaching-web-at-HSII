@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=`" />
 
     <style>
-        *{
-            margin: 0;
-        }
+      * {
+        margin: 0;
+      }
       body {
         color: white;
         background-color: rgb(76, 75, 75);
       }
       div {
-        border: 20px solid red;
+        border-width: 20px;
+        border-style: solid;
+        border-color: red;
+
+        border: 20px solid red; /* short hand of border */
+
         padding: 20px; /* Border ky andar ky space */
         /* padding: 10px 0px 10px 20px; */
-        margin: 20px;  /* Border space outside border */
+        margin: 20px; /* Border space outside border */
+      }
+
+      p {
+        width: 300px;
+        padding: 50px;
+        border: 20px solid #0088dd;
+      }
+      p.example {
+        margin: auto;
+        /* margin: 10px auto 10px auto; */
+        /* text-align: left; */
+      }
+
+      div{
+        display: none;
       }
     </style>
     <title>Document</title>
@@ -24,7 +44,19 @@
   <body>
     <h1>Box Model</h1>
 
-    <div>Hajiyani Institute Hajiyani InstituteHajiyani InstituteHajiyani InstituteHajiyani InstituteHajiyani Institute</div>
+    <div>
+      Hajiyani Institute Hajiyani InstituteHajiyani InstituteHajiyani
+      InstituteHajiyani InstituteHajiyani Institute
+    </div>
     <div>Hajiyani Institute</div>
+
+    <div>
+      <p class="example">
+        Analog synthesizers are often said to have a "warmer" sound than their
+        digital counterparts.
+      </p>
+    </div>
+
+    <p style="background-color: blueviolet; display: inline">Testing</p>
   </body>
 </html>
