@@ -6,6 +6,6 @@
 
 ## [CSS Guess](https://www.guess-css.app/)
 
-[learn-css](https://www.codecademy.com/learn/learn-css)
-
 ### [Beautiful CSS box-shadow](https://getcssscan.com/css-box-shadow-examples)
+
+[learn-css](https://www.codecademy.com/learn/learn-css)
