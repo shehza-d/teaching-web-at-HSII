@@ -1,5 +1,7 @@
 const reverseOnlyLetters = (str) => {
-  while(str.length)
+  while(str.length){
+    
+  }
   
     return str;
 };

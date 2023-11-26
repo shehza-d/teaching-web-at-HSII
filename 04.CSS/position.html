@@ -4,19 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=`" />
     <style>
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_positioned_layout/Understanding_z-index/Stacking_context */
+      /* https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
       p {
         background-color: gray;
       }
       h1 {
         border: 2px solid red;
       }
-      .testing{
-        position: relative;
+      .testing {
+        /* position: relative; */ /* relative apni jaga se move hota hy according to left right */
+        /* apni space rakhta hy */
         /* left: 40px; */
-        right: 40px;
+        /* right: 40px; */
         /* top: 60px;
         bottom: 90px; */
       }
+
+      .position {
+        position: absolute; /* absolute body se bahar aa kr jo positon de uspe aajata hy */
+        /* apni space nhi rakhta |   */
+        /* display: inline; */
+        top: 40px;
+        /* left: 50%; */
+
+        width: fit-content;
+        background-color: aquamarine;
+        border: 2px solid red;
+      }
+
+      /* agar ma parent element ko relative kardu tw position absolute wala child div ky ander hi rahe ga*/
     </style>
 
     <title>Document</title>
@@ -34,5 +51,44 @@
       aliquip ex ea commodo consequat.
     </p>
     <p>Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+
+    <div>
+      <div class="position">Testing positions</div>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        reprehenderit amet saepe animi atque eligendi ipsum magni repellat iusto
+        veniam. Sunt assumenda deserunt laborum illo, blanditiis esse doloremque
+        minus quasi fugiat vel excepturi maiores quaerat eos mollitia eaque
+        error delectus laudantium animi voluptas commodi nobis! Non odit rem
+        quisquam deleniti eaque libero, voluptatem in dolores, recusandae
+        voluptatum quas unde facere magnam. Minima nisi, aliquam debitis minus
+        expedita reprehenderit officia similique nulla accusantium ducimus
+        numquam labore recusandae? Voluptatem veniam mollitia eum rerum facilis
+        inventore ullam voluptate quia cumque voluptates vel minus aut suscipit
+        eius fugit, sit assumenda explicabo dolorum commodi tenetur eligendi!
+        Accusantium asperiores ex voluptatum sequi. Quasi aliquam, hic incidunt
+        saepe quos neque quis id laborum facere necessitatibus impedit in, quam
+        dolores asperiores eum accusantium quo iure nemo vero fugit cumque
+        explicabo vitae deleniti! Itaque, excepturi, suscipit blanditiis eaque
+        numquam corporis unde illum amet eligendi voluptatibus possimus debitis
+        voluptatum reprehenderit expedita tempore temporibus repellendus harum.
+        Autem, veniam nam. Delectus laudantium fugit soluta necessitatibus porro
+        nostrum hic animi optio quibusdam nemo tempore amet ratione pariatur
+        iure eligendi consequatur impedit repellendus vero velit ipsum nesciunt,
+        ipsa deserunt dolores. Hic, beatae voluptas. Consectetur minus, nobis
+        tenetur, nihil perferendis officiis natus molestiae dolorum, dolore
+        pariatur quos sunt? Iste quibusdam veritatis corrupti sed quam hic sit
+        ex consequuntur maiores. Error, aspernatur natus eaque molestiae
+        adipisci quod veniam! Dolorum, quidem dignissimos. Iure tempore fugiat
+        quas necessitatibus veniam repudiandae laborum tenetur culpa voluptate
+        dolores, veritatis dignissimos, autem nam excepturi voluptas doloremque.
+        Omnis quisquam quidem quasi numquam harum fuga dolorem aspernatur
+        cupiditate modi nulla odit iure fugiat quis, vero quaerat mollitia
+        placeat error vitae cumque veniam, dolores aliquid. Nemo ut, ab dolore,
+        labore sequi dolores pariatur animi fugiat in necessitatibus magnam
+        sunt? Aspernatur ad repellat quae quasi possimus explicabo ipsum
+        provident tempora velit impedit, non nesciunt, alias assumenda?
+      </p>
+    </div>
   </body>
 </html>
