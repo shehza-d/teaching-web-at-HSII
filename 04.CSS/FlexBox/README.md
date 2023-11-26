@@ -1,10 +1,7 @@
-# Flexbox
+# [Flexbox Article](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 ## [Flexbox froggy](https://flexboxfroggy.com/)
 
-6. Grid garden
-7. https://cssgridgarden.com/
+[Grid garden](https://cssgridgarden.com/)
 
-7. Grid attack
-
-https://codingfantasy.com/games/css-grid-attack/play
+[Grid attack](https://codingfantasy.com/games/css-grid-attack/play)
