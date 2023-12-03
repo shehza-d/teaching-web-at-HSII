@@ -13,3 +13,8 @@
 #### Assignment Website
 
 https://resources.github.com
+
+<!-- https://github.com/rizwanbhatti -->
+
+[Icons](https://fontawesome.com/icons/)
+[Bootstrap](https://getbootstrap.com/)
